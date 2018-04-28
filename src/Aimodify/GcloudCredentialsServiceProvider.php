@@ -12,7 +12,7 @@ class GcloudCredentialsServiceProvider extends \Illuminate\Support\ServiceProvid
     {
         $this->publishes([
             __DIR__.'/config/gcloud_credentials.php' => config_path('gcloud.php'),
-        ]);
+        ], "config");
     }
 }
 
