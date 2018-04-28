@@ -1,0 +1,21 @@
+{
+    "name": "aimodify/gcloud-credentials",
+    "license": "BSD-2-Clause",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "a.i.",
+            "email": "ech@letyshops.com"
+        },
+        {
+            "name": "a.i.",
+            "email": "277617@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Aimodify\\": "src/Aimodify/"}
+    },
+    "require": {
+        "php": ">=5.6"
+    }
+}
